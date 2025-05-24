@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-image: url('./images/animation1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 75%;
+      animation-name: lefttoright;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+
+    @keyframes lefttoright {
+      from {
+        translate: 0%;
+      }
+
+      to {
+        translate: 1150px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./images/animation2.jpg" alt="">
+</body>
+
+</html>
